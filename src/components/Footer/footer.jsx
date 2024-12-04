@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  FooterComp,
+  FooterContainer,
   LogoBox,
   Logo,
   LinksWrapper,
@@ -16,7 +16,7 @@ import { FaInstagram, FaLinkedin, FaGithub, FaDiscord } from 'react-icons/fa'
 
 export const Footer = () => {
   return (
-    <FooterComp>
+    <FooterContainer>
       <LogoBox>
         <Logo src={logo} alt="Logo" />
       </LogoBox>
@@ -63,6 +63,6 @@ export const Footer = () => {
 
         <Copyright>&copy; 2024 Mateus Vincenzi. All rights reserved.</Copyright>
       </LinksWrapper>
-    </FooterComp>
+    </FooterContainer>
   )
 }

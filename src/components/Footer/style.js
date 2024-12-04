@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import breakpoint from '../../styles/breakpoints.js'
 
 export const FooterComp = styled.footer`
   width: 100%;
@@ -9,6 +10,10 @@ export const FooterComp = styled.footer`
   padding: 20px;
   box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
   z-index: 1000;
+
+  @media ${breakpoint.sm2} {
+    padding: 10px;
+  }
 `
 
 export const LogoBox = styled.div`
@@ -33,6 +38,10 @@ export const NavigationContainer = styled.div`
   justify-content: center;
   gap: 20px;
   margin-bottom: 20px;
+
+  @media ${breakpoint.sm2} {
+    gap: 10px;
+  }
 `
 
 export const NavLink = styled.a`
@@ -44,6 +53,10 @@ export const NavLink = styled.a`
   &:hover {
     color: var(--whiteDefault);
     text-decoration: underline;
+  }
+
+  @media ${breakpoint.sm1} {
+    font-size: 12px;
   }
 `
 

@@ -18,6 +18,24 @@ const GlobalStyled = createGlobalStyle`
     button {
         cursor: pointer;
     }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #A2C4ED;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #85AFE3;
+        border-radius: 10px;
+        border: 2px solid #CDDFF5;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #739ED2;
+    }
     
     :root {
 

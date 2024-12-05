@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import breakpoint from '../../styles/breakpoints.js'
 
-export const FooterComp = styled.footer`
+export const FooterContainer = styled.footer`
   width: 100%;
   background-color: var(--black1);
   display: flex;

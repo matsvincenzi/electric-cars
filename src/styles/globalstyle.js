@@ -6,13 +6,17 @@ const GlobalStyled = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: 'Montserrat', sans-serif;
+        /* outline: 1px solid red; */
     }
 
     html {
         scroll-behavior: smooth;
+        scroll-padding-top: 150px;
     }
 
     body {
+        width: 100%;
+        overflow-x: hidden;
     }
 
     button {

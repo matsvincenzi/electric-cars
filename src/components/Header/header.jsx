@@ -31,14 +31,10 @@ export const Header = () => {
     }
   }, [])
 
-  const toggleSidebar = () => {
-    console.log('Toggling sidebar:', !showSidebar)
-    setShowSidebar(!showSidebar)
-  }
+  const toggleSidebar = () => setShowSidebar(!showSidebar)
 
   return (
-    <HeaderContainer>
-      <div id="home"></div>
+    <HeaderContainer id="home">
       <NavWrapper isScrolled={isScrolled}>
         <Logo href="#home">
           Eletric

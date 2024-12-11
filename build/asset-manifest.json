@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/electric-cars/static/js/main.caa9b62b.js",
+    "static/media/howItWork.png": "/electric-cars/static/media/howItWork.fcc2373273953c3ce97c.png",
+    "static/media/cons.png": "/electric-cars/static/media/cons.f26dc3420c4cbd0dd3c9.png",
+    "static/media/pros.png": "/electric-cars/static/media/pros.f08256be8c2c9c2ebbcc.png",
+    "static/media/background.png": "/electric-cars/static/media/background.3c2065cf66f4c0f52fc2.png",
+    "static/media/teslaModel.png": "/electric-cars/static/media/teslaModel.47e29a3f00c6d954fcf6.png",
+    "static/media/kiaNiroo.png": "/electric-cars/static/media/kiaNiroo.d6fe17c482cb02dd20d8.png",
+    "static/media/volksIwagenId.png": "/electric-cars/static/media/volksIwagenId.2fedb48a6c03fee8d74d.png",
+    "static/media/bydDolphinn.png": "/electric-cars/static/media/bydDolphinn.86411bb9657ae3a06731.png",
+    "static/media/bydSeaa.png": "/electric-cars/static/media/bydSeaa.d004446ab5e2c788ca66.png",
+    "static/media/hyundaiKonaa.png": "/electric-cars/static/media/hyundaiKonaa.fcd2928e1f05c26b908c.png",
+    "static/media/nissanLeaf.png": "/electric-cars/static/media/nissanLeaf.3776340cdcb25f64933c.png",
+    "static/media/logo.png": "/electric-cars/static/media/logo.0a086b56d8600eb2d9f7.png",
+    "index.html": "/electric-cars/index.html",
+    "main.caa9b62b.js.map": "/electric-cars/static/js/main.caa9b62b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.caa9b62b.js"
+  ]
+}

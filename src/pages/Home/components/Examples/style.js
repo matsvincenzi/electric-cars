@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import breakpoint from '../../../../styles/breakpoints.js'
 
 export const CarouselContainer = styled.div`
   display: flex;
@@ -8,6 +9,10 @@ export const CarouselContainer = styled.div`
   width: 90%;
   margin: 2rem auto;
   overflow: hidden;
+
+  @media ${breakpoint.sm1} {
+    margin: 1px auto;
+  }
 `
 
 export const Slide = styled.div`
@@ -72,11 +77,11 @@ export const NavigationButton = styled.button`
   }
 
   &.prev {
-    left: -140px;
+    left: -100px;
   }
 
   &.next {
-    right: -140px;
+    right: -100px;
   }
 `
 

@@ -22,7 +22,7 @@ export const HeaderContainer = styled.header`
 `
 
 export const NavWrapper = styled.nav`
-  width: 100%;
+  width: 100vw;
   max-width: 100%;
   display: flex;
   align-items: center;

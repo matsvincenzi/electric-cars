@@ -49,12 +49,6 @@ const cars = [
     image: ModelSImage,
   },
   {
-    name: 'Nissan Leaf',
-    price: '$27,400',
-    description: 'Affordable and popular compact electric car.',
-    image: LeafImage,
-  },
-  {
     name: 'Volkswagen ID.4',
     price: '$42,000',
     description: 'Electric SUV with spacious interior and great range.',

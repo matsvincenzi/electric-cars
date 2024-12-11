@@ -14,15 +14,15 @@ export const CardContainer = styled.div`
   }
 
   @media ${breakpoint.sm1} {
-    gap: 10px;
+    gap: 12spx;
   }
 `
 
 export const CardWrapper = styled.div`
   position: relative;
-  width: 270px;
-  height: 380px;
-  perspective: 1000px;
+  width: 16.875rem;
+  height: 23.75rem;
+  perspective: 62.5rem;
   cursor: pointer;
   transition: transform 0.5s ease;
 
@@ -39,8 +39,8 @@ export const CardWrapper = styled.div`
   }
 
   @media ${breakpoint.sm1} {
-    width: 170px;
-    height: 260px;
+    width: 8.75rem;
+    height: 12.5rem;
   }
 
   & > div {
@@ -110,11 +110,12 @@ export const CardWrapper = styled.div`
 
     @media ${breakpoint.sm1} {
       h3 {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
+        margin-bottom: 0.8rem;
       }
 
       p {
-        font-size: 0.7rem;
+        font-size: 0.67rem;
       }
     }
   }

@@ -10,6 +10,7 @@ export const HeaderContainer = styled.header`
   background-image: url(${backgroundImage});
   background-position: center;
   background-size: cover;
+  overflow-x: hidden;
 
   @media ${breakpoint.sm2} {
     height: 35rem;
@@ -21,7 +22,8 @@ export const HeaderContainer = styled.header`
 `
 
 export const NavWrapper = styled.nav`
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -30,9 +32,12 @@ export const NavWrapper = styled.nav`
   left: 0;
   z-index: 10;
   padding: 10px 20px;
+  box-sizing: border-box;
   background-color: ${(props) =>
-    props.isScrolled ? 'rgba(0, 0, 0, 0.04)' : 'transparent'};
-  backdrop-filter: ${(props) => (props.isScrolled ? 'blur(7px)' : 'none')};
+    props.isScrolled ? 'rgba(0, 0, 0, 0.08)' : 'transparent'};
+  backdrop-filter: ${(props) => (props.isScrolled ? 'blur(15px)' : 'none')};
+  -webkit-backdrop-filter: ${(props) =>
+    props.isScrolled ? 'blur(15px)' : 'none'};
   transition: background-color 0.2s ease, backdrop-filter 0.2s ease;
 `
 
@@ -98,7 +103,8 @@ export const MenuSidebar = styled.div`
   position: fixed;
   top: 0;
   right: 0;
-  width: 280px;
+  max-width: 100%;
+  overflow-x: hidden;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 15;

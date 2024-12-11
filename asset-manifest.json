@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/electric-cars/static/js/main.caa9b62b.js",
+    "main.js": "/electric-cars/static/js/main.a4996fc7.js",
     "static/media/howItWork.png": "/electric-cars/static/media/howItWork.fcc2373273953c3ce97c.png",
     "static/media/cons.png": "/electric-cars/static/media/cons.f26dc3420c4cbd0dd3c9.png",
     "static/media/pros.png": "/electric-cars/static/media/pros.f08256be8c2c9c2ebbcc.png",
@@ -14,9 +14,9 @@
     "static/media/nissanLeaf.png": "/electric-cars/static/media/nissanLeaf.3776340cdcb25f64933c.png",
     "static/media/logo.png": "/electric-cars/static/media/logo.0a086b56d8600eb2d9f7.png",
     "index.html": "/electric-cars/index.html",
-    "main.caa9b62b.js.map": "/electric-cars/static/js/main.caa9b62b.js.map"
+    "main.a4996fc7.js.map": "/electric-cars/static/js/main.a4996fc7.js.map"
   },
   "entrypoints": [
-    "static/js/main.caa9b62b.js"
+    "static/js/main.a4996fc7.js"
   ]
 }

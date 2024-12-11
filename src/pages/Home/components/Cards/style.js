@@ -7,7 +7,7 @@ export const CardContainer = styled.div`
   gap: 75px;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 32px;
 
   @media ${breakpoint.sm2} {
     gap: 15px;
@@ -53,24 +53,24 @@ export const CardWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    font-size: 1rem;
+    padding: 16px;
+    font-size: 16px;
     font-weight: bold;
-    color: #fff;
+    color: var(--whiteDefault);
     flex-direction: column;
     user-select: none;
   }
 
   & > .front {
     background: linear-gradient(135deg, #1166dd, #5a9eff);
-    color: #fff;
+    color: var(--whiteDefault);
     text-align: center;
-    padding: 1.5rem;
+    padding: 24px;
 
     .icon {
-      margin-top: 1rem;
-      font-size: 1.5rem;
-      color: #fff;
+      margin-top: 16px;
+      font-size: 24px;
+      color: var(--whiteDefault);
       position: absolute;
       bottom: 10px;
       right: 10px;
@@ -79,11 +79,11 @@ export const CardWrapper = styled.div`
 
   & > .back {
     background: linear-gradient(135deg, #1166dd, #5a9eff);
-    color: #fff;
+    color: var(--whiteDefault);
     transform: rotateY(180deg);
     text-align: center;
-    padding: 1.5rem;
-    font-size: 1rem;
+    padding: 24px;
+    font-size: 16px;
     font-weight: normal;
     display: flex;
     flex-direction: column;
@@ -91,31 +91,31 @@ export const CardWrapper = styled.div`
     align-items: center;
 
     h3 {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
+      font-size: 19px;
+      margin-bottom: 32px;
     }
 
     p {
-      font-size: 0.9rem;
+      font-size: 14.4px;
       line-height: 1.5;
       max-width: 85%;
     }
 
     @media ${breakpoint.sm2} {
       p {
-        font-size: 0.9rem;
+        font-size: 14.4px;
         line-height: 1.3;
       }
     }
 
     @media ${breakpoint.sm1} {
       h3 {
-        font-size: 0.7rem;
-        margin-bottom: 0.8rem;
+        font-size: 11.2px;
+        margin-bottom: 12.8px;
       }
 
       p {
-        font-size: 0.67rem;
+        font-size: 10.5px;
       }
     }
   }

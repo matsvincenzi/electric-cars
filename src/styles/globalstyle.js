@@ -10,12 +10,10 @@ const GlobalStyled = createGlobalStyle`
 
     html {
         scroll-behavior: smooth;
-        scroll-padding-top: 150px;
+        scroll-padding-top: 9.3rem;
     }
 
     body {
-        width: 100%;
-        overflow-x: hidden;
     }
 
     button {
@@ -27,17 +25,17 @@ const GlobalStyled = createGlobalStyle`
     }
 
     ::-webkit-scrollbar-track {
-        background: #A2C4ED;
+        background: var(--blue7);
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #85AFE3;
+        background-color: var(--blue6);
         border-radius: 10px;
-        border: 2px solid #CDDFF5;
+        border: 2px solid var(--blue8);
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background-color: #739ED2;
+        background-color: var(--blue5);
     }
     
     :root {
@@ -48,6 +46,18 @@ const GlobalStyled = createGlobalStyle`
 
         --blackDefault: #000000;
         --black1: #080808;
+
+        --blue0: #0b4ba0; 
+        --blue1: #1166dd;
+        --blue2: #3b82f6;
+        --blue3: #5a9eff;
+        --blue4: #7bb9f1; 
+        --blue5: #739ED2;
+        --blue6: #85AFE3;
+        --blue7: #A2C4ED;
+        --blue8: #CDDFF5;
+        --blue9: #d7e9ff;
+        
 
         --transition-color-fast: color 0.3s ease;
         --transition-color-slow: color 0.5s ease;

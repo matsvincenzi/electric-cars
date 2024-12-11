@@ -7,7 +7,7 @@ export const CarouselContainer = styled.div`
   align-items: center;
   position: relative;
   width: 90%;
-  margin: 2rem auto;
+  margin: 32px auto;
   overflow: hidden;
 
   @media ${breakpoint.sm1} {
@@ -25,32 +25,32 @@ export const Slide = styled.div`
   .image-wrapper {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 50rem;
   }
 
   img {
     width: 100%;
-    max-width: 800px;
-    height: 480px;
+    max-width: 50rem;
+    height: 30rem;
     object-fit: contain;
     border-radius: 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
   }
 
   .info {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 1.5rem;
+    background: var(--whiteDefault);
+    padding: 24px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
     h3 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      font-size: 32px;
+      margin-bottom: 16px;
     }
 
     p {
-      font-size: 1.2rem;
-      margin: 0.5rem 0;
+      font-size: 19.2px;
+      margin: 8px 0;
     }
   }
 `
@@ -66,59 +66,59 @@ export const NavigationButton = styled.button`
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  font-size: 2rem;
-  color: white;
+  font-size: 32px;
+  color: var(--whiteDefault);
   cursor: pointer;
   background: none;
   transition: background 0.3s;
 
   &:hover {
-    background: #3b82f6;
+    background: var(--blue2);
   }
 
   &.prev {
-    left: -100px;
+    left: -6.25rem;
   }
 
   &.next {
-    right: -100px;
+    right: -6.25rem;
   }
 `
 
 export const Indicators = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin-top: 24px;
 
   span {
-    font-size: 1.5rem;
-    margin: 0 0.5rem;
+    font-size: 24px;
+    margin: 0 8px;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--whiteDefault);
     transition: color 0.3s;
 
     &.active {
-      color: #3b82f6;
+      color: var(--blue2);
     }
 
     &:hover {
-      color: #7bb9f1;
+      color: var(--blue4);
     }
   }
 `
 
 export const ViewMoreButton = styled.button`
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #1166dd;
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: var(--blue1);
   border: none;
   border-radius: 8px;
-  color: white;
-  font-size: 1rem;
+  color: var(--whiteDefault);
+  font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #0b4ba0;
+    background-color: var(--blue0);
   }
 `

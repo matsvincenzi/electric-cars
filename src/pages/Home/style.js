@@ -4,7 +4,7 @@ import breakpoint from '../../styles/breakpoints.js'
 export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #d7e9ff;
+  background-color: var(--blue9);
   min-height: 100vh;
 `
 
@@ -19,11 +19,11 @@ export const WhatAreTheySection = styled.section`
   margin: 7.8rem 0 70px 0;
 
   @media ${breakpoint.sm2} {
-    margin: 5rem 0 90px 0;
+    margin: 80px 0 90px 0;
   }
 
   @media ${breakpoint.sm1} {
-    margin: 4rem 0 110px 0;
+    margin: 64px 0 110px 0;
     min-height: 25vh;
   }
 `
@@ -39,7 +39,7 @@ export const Title = styled.h1`
 
   @media ${breakpoint.sm1} {
     font-size: 24px;
-    max-width: 250px;
+    max-width: 15.6rem;
   }
 `
 
@@ -48,7 +48,7 @@ export const DividerWAT = styled.hr`
   height: 2px;
   border: none;
   margin: 20px auto 40px;
-  background-color: #1166dd;
+  background-color: var(--blue1);
 
   @media ${breakpoint.sm2} {
     width: 50%;
@@ -61,25 +61,25 @@ export const DividerWAT = styled.hr`
 
 export const Paragraph = styled.p`
   font-size: 20px;
-  max-width: 1000px;
+  max-width: 62.5rem;
   margin: 0 auto;
   text-align: justify;
 
   @media ${breakpoint.md1} {
     font-size: 19px;
-    max-width: 740px;
+    max-width: 46.25rem;
     padding: 0 10px;
   }
 
   @media ${breakpoint.sm2} {
     font-size: 18px;
-    max-width: 550px;
+    max-width: 34.4rem;
     padding: 0 10px;
   }
 
   @media ${breakpoint.sm1} {
     font-size: 16px;
-    max-width: 320px;
+    max-width: 20rem;
     padding: 0 10px;
   }
 `
@@ -107,7 +107,7 @@ export const DividerHIW = styled.hr`
   height: 2px;
   border: none;
   margin: 20px auto 40px;
-  background-color: #1166dd;
+  background-color: var(--blue1);
 
   @media ${breakpoint.sm2} {
     width: 50%;
@@ -170,7 +170,7 @@ export const DividerTYP = styled.hr`
   height: 2px;
   border: none;
   margin: 20px auto 40px;
-  background-color: #1166dd;
+  background-color: var(--blue1);
 
   @media ${breakpoint.sm2} {
     width: 50%;
@@ -207,11 +207,11 @@ export const ProsAndConsSection = styled.section`
   min-height: 95vh;
 
   @media ${breakpoint.sm2} {
-    margin-bottom: 130px;
+    margin-bottom: 8.125rem;
   }
 
   @media ${breakpoint.sm1} {
-    margin-bottom: 150px;
+    margin-bottom: 9.375rem;
   }
 `
 
@@ -232,12 +232,12 @@ export const Item = styled.div`
 
   &:first-child {
     background-color: var(--blackDefault);
-    color: white;
+    color: var(--whiteDefault);
   }
 
   &:last-child {
-    background-color: #1166dd;
-    color: white;
+    background-color: var(--blue1);
+    color: var(--whiteDefault);
   }
 
   @media ${breakpoint.sm2} {
@@ -292,7 +292,7 @@ export const ListItem = styled.li`
 export const Image = styled.img`
   margin-top: 50px;
   width: 80%;
-  height: 470px;
+  height: 29.375rem;
   border-radius: 10px;
   object-fit: cover;
 

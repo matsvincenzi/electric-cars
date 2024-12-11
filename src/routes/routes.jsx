@@ -1,11 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
-import RoutesMainApp from './routes/RoutesMainApp'
+import { Route, Routes } from 'react-router-dom'
+import { Home } from '../pages/Home/home'
 
-ReactDOM.render(
-  <BrowserRouter basename="/electric-cars">
-    <RoutesMainApp />
-  </BrowserRouter>,
-  document.getElementById('root'),
-)
+export default function RoutesMainApp() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  )
+}

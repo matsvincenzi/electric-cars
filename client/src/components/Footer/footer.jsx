@@ -32,7 +32,7 @@ export const Footer = () => {
 
         <SocialLinks>
           <SocialLink
-            href="https://www.instagram.com/vincenzicode/"
+            href="https://www.instagram.com/matts.dev/"
             target="_blank"
             aria-label="Instagram"
           >
@@ -53,7 +53,7 @@ export const Footer = () => {
             <FaGithub />
           </SocialLink>
           <SocialLink
-            href="https://discord.gg/NHAYF9EryF"
+            href="https://discord.gg/NvsmEv4kC5"
             target="_blank"
             aria-label="Discord"
           >
